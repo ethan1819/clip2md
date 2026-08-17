@@ -1,0 +1,21 @@
+﻿This is a sample messy input — the kind of stuff you get when copying from a PDF
+or a web page.
+
+Smart quotes are everywhere: "hello", 'world'. Em—dashes too.
+There is   extra    whitespace. And some zero-width chars lurking in there.
+
+Multiple
+
+
+blank
+
+
+lines.
+
+中文括号之间 ( 有时候 ) 会被 加 多余空格。
+
+And here is a code block that should NOT be mangled:
+```python
+def greet(name):
+    return f"Hello, {name}!"
+```
