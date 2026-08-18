@@ -1,10 +1,10 @@
-﻿{
+{
   "name": "clip2md",
   "version": "0.1.0",
   "description": "Turn any clipboard payload into LLM-ready Markdown",
   "type": "module",
   "bin": {
-    "clip2md": "./bin/clip2md.mjs"
+    "clip2md": "bin/clip2md.mjs"
   },
   "main": "./src/index.mjs",
   "files": [
@@ -15,9 +15,9 @@
   ],
   "scripts": {
     "start": "node bin/clip2md.mjs",
-    "test": "node --test test/"
+    "test": "node --test test/",
+    "bench": "node bench/compare.mjs",
   },
-  "engines": {
     "node": ">=18"
   },
   "keywords": [
@@ -36,5 +36,15 @@
   },
   "bugs": {
     "url": "https://github.com/ethan1819/clip2md/issues"
+  },
+  "directories": {
+    "doc": "docs",
+    "example": "examples",
+    "test": "test"
+  },
+  "author": "",
+  "homepage": "https://github.com/ethan1819/clip2md#readme",
+  "dependencies": {
+    "turndown": "^7.2.4"
   }
 }
